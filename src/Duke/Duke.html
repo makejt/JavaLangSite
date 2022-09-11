@@ -10,11 +10,18 @@
   <meta name="author" content="Makej Tatyana">
   <title>Java language </title>
   <link rel="shortcut icon" href="../assets/duke.ico">
+  <link rel="stylesheet" href="../index/index.css">
+  <link rel="stylesheet" href="../duke/duke.css">
 </head>
 <body>
-<header>
-  <h1>Duke, the Java Mascot</h1>
-  <nav>
+<header class="header">
+  <div class="container header__container">
+  <div>
+    <img class="img" src="../assets/java.png">
+    <h1 class="h1">Duke</h1>
+  </div>
+
+  <nav class="navigation">
     <a href="../Index/Index.html">Main</a>
     <a href="../History/History.html">History</a>
     <a href="../Development Tools/Development Tools.html">Development Tools</a>
@@ -22,41 +29,63 @@
     <a href="../Literature/Literature.html">Literature</a>
     <br><br>
   </nav>
+  </div>
 </header>
 
-<main>
+<main class="main">
+  <div class="container main__container">
   <section>
     <header>
       <h3>Who is Duke?</h3>
     </header>
-    <main>
-      <img src = "../assets/duke.jpg", srcset = "../assets/duke1.jpg" width="200" height="200" alt = "duke image" loading="lazy">
 
-      <p>Back in the early days of Java development, Sun Microsystems’ Green Project team created its first working demo—an interactive handheld home entertainment controller called the Star7. At the heart of the animated touch-screen user interface was a cartoon character named Duke.</p>
+      <img class="image-duke1" src = "../assets/duke.jpg", srcset = "../assets/duke1.jpg" width="200" height="200"
+           alt = "duke image" loading="lazy">
 
-      <p> The jumping, cartwheeling Duke was created by one of the team’s graphic artists, Joe Palrang. Joe went on to work on popular animated movies such as Shrek, Over the Hedge, and Flushed Away.</p>
+      <p>Back in the early days of Java development, Sun Microsystems’ Green Project team created its first working
+        demo—an interactive handheld home entertainment controller called the Star7. At the heart of the animated
+        touch-screen user interface was a cartoon character named Duke.</p>
 
-      <p> Duke was designed to represent a “software agent” that performed tasks for the user. Duke was the interactive host that enabled a new type of user interface that went beyond the buttons, mice, and pop-up menus of the desktop computing world.</p>
+      <p> The jumping, cartwheeling Duke was created by one of the team’s graphic artists, Joe Palrang. Joe went on
+        to work on popular animated movies such as Shrek, Over the Hedge, and Flushed Away.</p>
 
-      <p> Duke was instantly embraced. In fact, at about the same time Java was first introduced and the first Java cup logo was commissioned, Duke became the official mascot of Java technology. In 2006, Duke was officially “open sourced” under a BSD license. Developers and designers were encouraged to play around with Duke and for the first time had access to Duke’s graphical specifications through a java.net project. Efforts around Duke are now hosted as “Project Duke” at OpenJDK.</p>
+      <p> Duke was designed to represent a “software agent” that performed tasks for the user. Duke was the interactive
+        host that enabled a new type of user interface that went beyond the buttons, mice, and pop-up menus of the
+        desktop computing world.</p>
 
-      <p> At Oracle, we celebrate Duke, too. A living, life-size Duke is a popular feature at every JavaOne developer conference. And each year, Oracle releases a new Duke personality. Last year it was Surfing Duke, who tagged along for the ride at the Java Road Trip: Code to Coast. This year it’s Future Tech Duke, moving Java forward into new technology and platform arenas.</p>
+    <img class="image-duke2" src = "../assets/duke.jpg" srcset = "../assets/duke2.jpg" width="200" height="200"
+         alt = "duke image" loading="lazy">
 
-      <video src = "../assets/video.mp4" width="600px" height="400px" title="Duke From Java Dancing to the YMCA" controls autoplay>Ваш браузер не пожжерживает тег video!</video>
+      <p> Duke was instantly embraced. In fact, at about the same time Java was first introduced and the first Java
+        cup logo was commissioned, Duke became the official mascot of Java technology. In 2006, Duke was officially
+        “open sourced” under a BSD license. Developers and designers were encouraged to play around with Duke and for
+        the first time had access to Duke’s graphical specifications through a java.net project. Efforts around Duke
+        are now hosted as “Project Duke” at OpenJDK.</p>
 
-    </main>
+      <p> At Oracle, we celebrate Duke, too. A living, life-size Duke is a popular feature at every JavaOne developer
+        conference. And each year, Oracle releases a new Duke personality. Last year it was Surfing Duke, who tagged
+        along for the ride at the Java Road Trip: Code to Coast. This year it’s Future Tech Duke, moving Java forward
+        into new technology and platform arenas.</p>
+
+      <video class="video" src = "../assets/video.mp4" width="600px" height="400px"
+             title="Duke From Java Dancing to the YMCA"
+             controls autoplay>Ваш браузер не пожжерживает тег video!</video>
     <footer>
-      For more information about Java, visit <a href="https://www.oracle.com/java/"> Oracle.com/java </a>
+      For more information about Java, visit <a href="https://www.oracle.com/java/" target="_blank"> Oracle.com/java </a>
     </footer>
   </section>
+  </div>
 </main>
 
 
 
-<footer>
-  <h3>Read more about Java Language</h3>
-  <ul>
+<footer class="footer">
+  <div class="container footer__container">
 
+  <ul class="ul">
+    <li>
+      Read more about Java Language:
+    </li>
     <li>
       <a href="../Index/Index.html">Main</a>
     </li>
@@ -74,7 +103,8 @@
     </li>
 
   </ul>
-  <address>IT-Step Academy, Minsk, 2022 </address>
+  <address class="address">IT-Step Academy, Minsk, 2022 </address>
+  </div>
 </footer>
 
 </body>

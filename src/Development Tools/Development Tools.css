@@ -1,0 +1,15 @@
+.tools-image {
+    width: 70%;
+    height: 70%;
+    object-fit:cover;
+
+}
+
+.tools-image-container {
+
+}
+
+.h3 {
+    color: #a64e4e;
+    text-align:center;
+}

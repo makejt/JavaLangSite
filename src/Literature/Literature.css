@@ -1,0 +1,27 @@
+.img-book {
+    display: inline-block;
+    vertical-align:middle;
+    width: 150px;
+    height: 200px;
+    margin: 5px;
+    float:left;
+}
+
+.text {
+
+    height: 200px;
+    vertical-align:middle;
+}
+
+.image-lit {
+    width: 30%;
+    height: 50%;
+    object-fit:cover;
+    float: right;
+    position: sticky;
+    top:20px;
+}
+
+p {
+width: 70%;
+}

@@ -1,0 +1,26 @@
+.image1 {
+    width: 40%;
+    height: 50%
+    object-fit:cover;
+    float: left;
+}
+
+.image2 {
+    width: 40%;
+    height: 30%
+    object-fit:cover;
+    float: right
+}
+
+.table {
+    width: 100%;
+    background: white;
+    color: #000000;
+    border-spacing: 1px;
+}
+
+.table td,
+.table th {
+    background: #dadada;
+    padding: 5px;
+}
